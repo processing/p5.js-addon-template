@@ -14,9 +14,11 @@ export function addonTemplate(p5, fn, lifecycles){
   // This variable will be available in a sketch as `myAddonVariable`
   fn.myAddonVariable = 'some value';
   // This function will be available in the sketch as `drawSomething`
-  fn.drawSomething = function(){ };
+  fn.drawSomething = function() { };
   // This is an asynchronous function: for example, `await loadSomething()`
-  fn.loadSomething = async function(){ };
+  fn.loadSomething = async function() { };
+  // This class will be available in a sketch as `new p5.MyAddonClass()`
+  p5.MyAddonClass = class { };
 };
 
 if(typeof p5 !== 'undefined'){
