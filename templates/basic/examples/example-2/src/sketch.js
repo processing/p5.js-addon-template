@@ -1,4 +1,4 @@
-import p5 from 'https://cdn.jsdelivr.net/npm/p5@2.0.3/lib/p5.esm.js';
+import p5 from 'https://cdn.jsdelivr.net/npm/p5@2/lib/p5.esm.js';
 import { addonTemplate } from '../../../dist/addonTemplate.esm.js'
 
 p5.registerAddon(addonTemplate);

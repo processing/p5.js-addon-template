@@ -1,5 +1,5 @@
 {
-  "name": "p5.js-cutom-renderer-addon",
+  "name": "p5.js-custom-renderer-addon",
   "version": "0.0.0",
   "description": "Template project for starting an addon for p5.js",
   "type": "module",
